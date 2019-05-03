@@ -54,6 +54,7 @@ merge-pyi -i module.py .pytype/pyi/module.pyi
 
 ## Requirements
 
+
 You need a Python 2.7 or 3.5+ interpreter to run pytype, as well as an
 interpreter in `$PATH` for the Python version of the code you're analyzing.
 
@@ -65,6 +66,7 @@ Platform support:
 * Windows is currently not supported.
 
 ## Installing
+
 
 Pytype can be installed via pip. Note that the installation requires `wheel`
 and `setuptools`. (If you're working in a virtualenv, these two packages should
